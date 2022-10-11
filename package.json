@@ -14,6 +14,7 @@
     "nodemon": "^2.0.19"
   },
   "scripts": {
-    "dev": "env-cmd -f ./src/config/config.env nodemon src/index.js"
+    "dev": "env-cmd -f ./src/config/config.env nodemon src/index.js",
+    "start": "env-cmd -f ./src/config/config.env node src/index.js"
   }
 }
