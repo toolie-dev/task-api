@@ -15,6 +15,6 @@
   },
   "scripts": {
     "dev": "env-cmd -f ./src/config/config.env nodemon src/index.js",
-    "start": "env-cmd -f ./src/config/config.env node src/index.js"
+    "start": "node src/index.js"
   }
 }
